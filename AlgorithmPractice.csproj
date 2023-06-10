@@ -8,19 +8,19 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Remove="UnitTests\**" />
+        <Compile Remove="UnitTests\**"/>
     </ItemGroup>
 
     <ItemGroup>
-      <EmbeddedResource Remove="UnitTests\**" />
+        <EmbeddedResource Remove="UnitTests\**"/>
     </ItemGroup>
 
     <ItemGroup>
-      <None Remove="UnitTests\**" />
+        <None Remove="UnitTests\**"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include=".github\workflows\dotnet.yml" />
+        <Content Include=".github\workflows\dotnet.yml"/>
     </ItemGroup>
 
 </Project>

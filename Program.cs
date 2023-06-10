@@ -1,13 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using AlgorithmPractice;
+﻿using AlgorithmPractice.Arrays.Sorting;
 
 Console.WriteLine("Hello, World!");
 
+RunAndPrintBubbleSort();
 
 void RunAndPrintBubbleSort()
 {
-    var bubbleSort = new BubbleSort();
-    var nums = new[] { 9, 8, 7, 6, 5, 4, 3, 2, 1};
-    Console.WriteLine(string.Join(", ", bubbleSort.Sort(nums)));
+    var nums = new[] { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+    Console.WriteLine(string.Join(", ", BubbleSort.Sort(nums)));
 }
