@@ -7,5 +7,6 @@ RunAndPrintBubbleSort();
 void RunAndPrintBubbleSort()
 {
     var nums = new[] { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
-    Console.WriteLine(string.Join(", ", BubbleSort.Sort(nums)));
+    var result = BubbleSort.Sort(nums);
+    Console.WriteLine(string.Join(", ", result));
 }
