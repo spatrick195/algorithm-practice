@@ -19,4 +19,8 @@
       <None Remove="UnitTests\**" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include=".github\workflows\dotnet.yml" />
+    </ItemGroup>
+
 </Project>
